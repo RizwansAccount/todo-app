@@ -14,10 +14,10 @@ export const NoteService = {
     },
 
     update: async (id, body) => {
-        return await NoteModel.findByIdAndUpdate(id, body)
+        return await NoteModel.findByIdAndUpdate(id, body);
     },
 
     delete: async (id) => {
-        return await NoteModel.findByIdAndDelete(id)
+        return await NoteModel.findByIdAndDelete(id);
     },
 };
